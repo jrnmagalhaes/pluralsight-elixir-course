@@ -12,6 +12,7 @@ defmodule PluralsightTweetCourse.Tweet do
 
     def send_random(file) do
         PluralsightTweetCourse.FileReader.get_strings_to_tweet(file)
+        |> Enum.random
         |> send
     end
 end
