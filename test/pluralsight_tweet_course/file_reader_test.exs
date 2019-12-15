@@ -12,4 +12,10 @@ defmodule FileReaderTest do
     
     assert str == "short line."
   end
+
+  test "An empty string should return an empty string" do
+    str = PluralsightTweetCourse.FileReader.pick_string("")
+
+    assert str == "";
+  end
 end
