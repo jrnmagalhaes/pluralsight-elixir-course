@@ -24,7 +24,8 @@ defmodule PluralsightTweetCourse.MixProject do
     [
       {:quantum, "~> 2.3"},
       {:extwitter, "~> 0.9.6"},
-      {:oauth, github: "tim/erlang-oauth"}
+      {:oauth, github: "tim/erlang-oauth"},
+      {:mock, "~> 0.3.4"}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
